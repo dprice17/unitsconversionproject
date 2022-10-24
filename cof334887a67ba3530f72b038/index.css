@@ -1,0 +1,93 @@
+
+* { box-sizing: border-box;}
+
+
+body {
+    width: 550px;
+    margin: 0 auto;
+    background: #F4F4F4;
+    color: #353535;
+}
+
+
+/*********************
+      Typography
+**********************/
+
+
+.title{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.units{
+    color: #5A537B;
+}
+
+
+
+
+/*********************
+        Layout
+**********************/
+
+
+
+.conversion-box{
+    background: #6943FF;
+    padding: 1.5em 0
+}
+
+
+#num-box{
+    display: block;
+    width: 117px;
+    height: 87px;
+    border: 1px solid #fff;
+    margin: 0.5em auto;
+    color: #fff;
+    font-size: 58px;
+    margin-bottom: 0.5em;
+    background: #6943FF;
+    text-align: center;
+}
+
+#results1,
+#results2,
+#results3{
+    background: #fff;  
+    text-align: center;
+    margin: 1.5em 1em;
+    padding-top: 0.5em;
+    width: 520px;
+    height: 108.57px;
+}
+
+
+/*********************
+        Button
+**********************/
+
+
+#convert-btn{
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0.5em 1.5em;
+    color: #3D3D3D;
+    font-weight: 700;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+#convert-btn:hover,
+#convert-btn:focus{
+    background: #9370db;  
+    color: #fff;
+}
+
+#convert-btn:active{
+    background: plum;
+}
