@@ -66,6 +66,21 @@ body {
 }
 
 
+.units{
+    display: block;
+    margin: 0 auto 2em;
+    padding: 0.5em 1.5em;
+    text-align: center;
+}
+
+.unit-conversion-title{
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+
 /*********************
         Button
 **********************/
@@ -91,3 +106,4 @@ body {
 #convert-btn:active{
     background: plum;
 }
+

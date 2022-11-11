@@ -1,5 +1,5 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
@@ -9,23 +9,23 @@
             <div class="conversion-box">
                 <h2 class="title">Metric/Imperial Unit Conversion</h3>
                 <input type="number" id="num-box"></input>
+                
+                <label for="unit-conversion-label"><span class="unit-conversion-title"> 
+                Please select a unit to convert: 
+                </label>
+                <select name="unit-conversion-label" class="units">
+                    <option value=""></option>
+                    <option value="Length" id="length-el">Length (Meters/Feet)</option>
+                    <option value="Volume" id="volume-el">Volume (Liters/Gallons)</option>
+                    <option value="Mass" id="mass-el">Mass (Kilograms/Pounds)</option>
+                </select>
                 <button id="convert-btn">Convert</button>
             </div>
-            
-            <div id="results1">
-                <h3 class="units">Length (Meters/Feet)</h3>
-                <div id="output1-el"></div>
-            </div>   
-                
-            <div id="results2">
-                <h3 class="units">Volume (Liters/Gallons)</h3>
-                <div id="output2-el"></div>
-            </div>
-                
-            <div id="results3">
-                <h3 class="units">Mass (Kilograms/Pounds)</h3>
-                <div id="output3-el"></div>
-            </div> 
+               
+ 
+            <div id="output1-el"></div>
+            <div id="output2-el"></div>
+            <div id="output3-el"></div>    
             
           </div>
         <script src="index.js"></script>
