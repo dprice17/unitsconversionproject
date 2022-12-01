@@ -1,0 +1,108 @@
+
+* { box-sizing: border-box;}
+
+
+body {
+    width: 550px;
+    margin: 0 auto;
+    background: #F4F4F4;
+    color: #353535;
+}
+
+
+/*********************
+      Typography
+**********************/
+
+
+.title{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.units{
+    color: #5A537B;
+}
+
+
+
+
+/*********************
+        Layout
+**********************/
+
+
+
+.unitConversionBox{
+    background: #6943FF;
+    padding: 1.5em 0
+}
+
+
+.numBox{
+    display: block;
+    width: 117px;
+    height: 87px;
+    border: 1px solid #fff;
+    margin: 0.5em auto;
+    color: #fff;
+    font-size: 58px;
+    margin-bottom: 0.5em;
+    background: #6943FF;
+    text-align: center;
+}
+
+.results{
+    background: #fff;  
+    text-align: center;
+    margin: 1.5em 1em;
+    padding-top: 0.5em;
+    width: 520px;
+    height: 108.57px;
+}
+
+
+.units{
+    display: block;
+    margin: 0 auto 2em;
+    padding: 0.5em 1.5em;
+    text-align: center;
+}
+
+.unitCoversionInstructions{
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*********************
+        Button
+**********************/
+
+
+.convertBtn,
+.resetBtn{
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0.5em 1.5em;
+    color: #3D3D3D;
+    font-weight: 700;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.convertBtn:hover,
+.convertBtn:focus {
+    background: #9370db;  
+    color: #fff;
+}
+
+.convertBtn:active {
+    background: plum;
+}
+

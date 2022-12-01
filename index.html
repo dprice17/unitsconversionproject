@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="unitConversionBox">
+                <h2 class="title">Metric/Imperial Unit Conversion</h3>
+                <input type="number" id="numBox" class="numBox"></input>
+                
+                <p><span class="unitCoversionInstructions"> 
+                Please select a unit to convert: 
+                </p>
+                
+                <select name="unit-conversion-label" class="units" id="selectList">
+                    <option value=""></option>
+                    <option value="Length">Length (Meters/Feet)</option>
+                    <option value="Volume">Volume (Liters/Gallons)</option>
+                    <option value="Mass">Mass (Kilograms/Pounds)</option>
+                </select>
+                
+                <button id="convertBtn" class="convertBtn">Convert</button>
+            </div>
+ 
+            <div id="outputEl"></div>
+            
+          </div>
+        <script src="index.js"></script>
+    </body>
+</html>
